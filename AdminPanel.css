@@ -1,0 +1,131 @@
+
+.admin-panel {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #deb887; 
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    font-family: "Poppins", sans-serif;
+    color: #5a3825; 
+  }
+  
+  
+  .admin-panel h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #5a3825;
+    margin-bottom: 30px;
+  }
+  
+  
+  .add-book-button {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 12px 20px;
+    background-color: #91c7b1; 
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .add-book-button:hover {
+    background-color: #7da893; 
+    transform: scale(1.05); 
+  }
+  
+ 
+  .book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 20px;
+  }
+  
+  
+  .book-item {
+    background-color: #fff8ec;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease;
+  }
+  
+  .book-item:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+  }
+  
+  
+  .book-cover {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+
+  .book-item h3 {
+    font-size: 18px;
+    color: #5a3825;
+    margin: 10px 0 5px;
+  }
+  
+  .book-item p {
+    font-size: 14px;
+    color: #7a5a42; 
+    margin-bottom: 15px;
+  }
+  
+ 
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .edit-button,
+  .delete-button {
+    flex: 1;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .edit-button {
+    background-color: #91c7b1; 
+    color: #fff;
+  }
+  
+  .edit-button:hover {
+    background-color: #7da893;
+  }
+  
+  .delete-button {
+    background-color: #d8645b; 
+    color: #fff;
+  }
+  
+  .delete-button:hover {
+    background-color: #b74c45; 
+  }
+  
+ 
+  .error-message {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #d8645b; 
+    color: #fff;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  

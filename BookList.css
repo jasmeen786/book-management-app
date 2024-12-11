@@ -1,0 +1,139 @@
+
+.book-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+ 
+ img {
+    width: 220px; 
+    height: 200px; 
+    object-fit: cover;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+ 
+  .booklistImg{
+    width: 180px; 
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .booklistImg:hover {
+    transform: scale(1.1); 
+  }
+  
+.bookListContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+}
+
+
+
+
+
+  
+  .book-item h1 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 15px;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: color 0.3s ease;
+  }
+  
+  .book-item h1:hover {
+    color: #2980b9; 
+  }
+  
+  
+  .book-item button, .book-item a {
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-item button:hover, .book-item a:hover {
+    background-color: #3498db;
+  }
+  
+  
+  .book-item button {
+    background-color: #e74c3c;
+    margin-left: 5px;
+  }
+  
+  .book-item button:hover {
+    background-color: #c0392b;
+  }
+
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 50%;
+  padding: 10px;
+  border: 2px solid #d2b48c; 
+  border-radius: 20px;
+  outline: none;
+  font-size: 16px;
+  color: #5a3e2b;
+  background-color: #fffaf0;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+
+.search-input:focus,
+.search-input:hover {
+  border-color: #c19a6b;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.search-input::placeholder {
+  color: #c19a6b;
+  font-style: italic;
+}
+
+
+.search-button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #d2b48c; 
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+
+.search-button:hover {
+  background-color: #c19a6b;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+  

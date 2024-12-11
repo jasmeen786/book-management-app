@@ -1,0 +1,118 @@
+
+.edit-form-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #deb887;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    font-family: 'Poppins', sans-serif;
+    color: #5a3825; 
+    text-align: center;
+  }
+  
+  
+  .edit-form-container h2 {
+    font-size: 28px;
+    color: #5a3825;
+    margin-bottom: 20px;
+  }
+  
+  
+  .editform {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+  }
+  
+  
+  .editform input,
+  .editform textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #b38b6d;
+    border-radius: 10px;
+    outline: none;
+    background-color: #fff8ec; 
+    color: #5a3825;
+    transition: all 0.3s ease;
+  }
+  
+  .editform textarea {
+    resize: none;
+    height: 120px;
+  }
+  
+  
+  .editform input:focus,
+  .editform textarea:focus {
+    border-color: #d4a373;
+    box-shadow: 0px 0px 6px rgba(212, 163, 115, 0.8);
+  }
+  
+  button {
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  .edit-form-container button {
+    margin-bottom: 15px;
+    background-color: #91c7b1;
+    color: #fff;
+  }
+  
+  .edit-form-container button:hover {
+    background-color: #7da893;
+  }
+  
+  .editform button {
+    background-color: #a67d5a;
+    color: #fff;
+  }
+  
+  .editform button:hover {
+    background-color: #8b6745;
+  }
+  
+  
+  .success-message,
+  .error-message {
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .success-message {
+    background-color: #91c7b1;
+    color: #1c4b36;
+  }
+  
+  .error-message {
+    background-color: #d8645b;
+    color: #fff;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .edit-form-container {
+      padding: 15px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  

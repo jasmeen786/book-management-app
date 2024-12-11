@@ -1,0 +1,130 @@
+body {
+  background-color: #deb887; 
+  color: #5a3825; 
+  line-height: 1.6;
+  font-size: 16px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('C:\\web\\webbp\\bookmanagement\\src\\bgimage.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+h1 {
+  font-size: 3rem;
+  color: #8b4513; 
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #5a3825; 
+}
+
+.navbar {
+  background-color: #a67b5b; 
+  padding: 10px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar ul li {
+  margin: 0 10px;
+}
+
+.navbar ul li a {
+  color: #fff; 
+  padding: 10px 15px;
+}
+
+.navbar ul li a:hover {
+  background-color: #8b4513; 
+}
+
+button {
+  background-color: #d2a679; 
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #b8860b; 
+}
+
+input, textarea {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #cda776;
+  border-radius: 5px;
+}
+
+.error-message {
+  color: #ff6347; 
+  font-weight: bold;
+}
+
+.success-message {
+  color: #228b22;
+  font-weight: bold;
+}
+
+.book-detail {
+  margin: 20px;
+  background-color: #fff8dc; 
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.book-form {
+  background-color: #fff8dc; 
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.book-list {
+  margin: 20px;
+}
+
+.book-list ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-list ul li {
+  margin-bottom: 10px;
+  background-color: #f5deb3; 
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.admin-actions {
+  margin: 20px;
+  display: flex;
+  gap: 10px;
+}
+
